@@ -5,36 +5,65 @@ export default function grade() {
         name: "N/A",
         description: (
           <p>
-            Do not make a call if you are not asking the candidate to solve a
-            problem and they are not asked to describe a time where they solved
-            a substantial problem.
+            I did not ask the candidate to solve a problem or describe a time
+            where they solved a problem.
           </p>
         ),
       },
       {
         name: "Strong No",
-        description:
-          "The candidate is unable to conceive of any solution to the problem. The candidate is able to describe a basic, or naïve approach, but unable to implement it.",
+        description: (
+          <p>They described a basic approach but could not implement it.</p>
+        ),
       },
       {
         name: "No",
-        description:
-          "The candidate is unable to arrive at a solution beyond the most basic, naïve approach, even with significant help and hints from the interviewer. The final solution does not account for edge cases. (If due to a lack of time, in the judgement of the interviewer, the candidate would not be able to address those edge cases.)",
+        description: (
+          <p>
+            They could not go beyond a basic approach, even with significant
+            help and hints from the interviewer. The final solution did not
+            account for edge cases.
+          </p>
+        ),
       },
       {
         name: "Mixed",
-        description:
-          "The candidate conceives of and implements a naïve solution independently, conceives of a better approach with minimal hints, and is able to complete it with help from the interviewer. The candidate dives in to a solution without giving the problem much thought, or asking questions. If a missing edge case is pointed out, they are only able to solve it with significant help.",
+        description: (
+          <p>
+            They described and implemented a simple solution independently. They
+            implemented a better solution with minimal hints from the
+            interviewer. The candidate started working on the problems without
+            asking questions. They solved missing edge cases with significant
+            help.
+          </p>
+        ),
       },
       {
         name: "Yes",
-        description:
-          "The candidate is able to outline a solution beyond the most naïve, independently, and implement it, covering the vast majority of cases. If one or two hints are required, the candidate understands their importance quickly, and moves on. The candidate asks questions to clarify the scope of the problem and states their assumptions. If an edge case is pointed out to the candidate, they are able to modify their solution independently.",
+        description: (
+          <p>
+            The candidate is able to outline a solution beyond the most naïve,
+            independently, and implement it, covering the vast majority of
+            cases. If one or two hints are required, the candidate understands
+            their importance quickly, and moves on. The candidate asks questions
+            to clarify the scope of the problem and states their assumptions. If
+            an edge case is pointed out to the candidate, they are able to
+            modify their solution independently.
+          </p>
+        ),
       },
       {
         name: "Strong Yes",
-        description:
-          "The candidate clarifies the scope as a natural first step, is able to articulate multiple approaches and describe the pros and cons of each, makes a sensible decision based on the constraints of the interview format, and is able to fully implement the approach, without any real help from the interviewer. The candidate recognises edge cases and draws attention to them unprompted, then solves them.",
+        description: (
+          <p>
+            The candidate clarifies the scope as a natural first step, is able
+            to articulate multiple approaches and describe the pros and cons of
+            each, makes a sensible decision based on the constraints of the
+            interview format, and is able to fully implement the approach,
+            without any real help from the interviewer. The candidate recognises
+            edge cases and draws attention to them unprompted, then solves them.
+          </p>
+        ),
       },
     ],
     codeFluency: [
