@@ -3,8 +3,13 @@ export default function grade() {
     problemSolving: [
       {
         name: "N/A",
-        description:
-          "Do not make a call if you are not asking the candidate to solve a problem and they are not asked to describe a time where they solved a substantial problem.",
+        description: (
+          <p>
+            Do not make a call if you are not asking the candidate to solve a
+            problem and they are not asked to describe a time where they solved
+            a substantial problem.
+          </p>
+        ),
       },
       {
         name: "Strong No",

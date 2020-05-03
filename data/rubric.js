@@ -2,7 +2,7 @@ export default function rubric() {
   return [
     {
       title: "Ability to build software",
-      discription:
+      description:
         "Qualities related to the candidate’s ability to effectively build software.",
       questions: [
         {
@@ -77,7 +77,7 @@ export default function rubric() {
     },
     {
       title: "Ability to learn and teach",
-      discription:
+      description:
         "Qualities related to a candidate’s ability to improve themselves, and make Medium better.",
       questions: [
         {

@@ -9,6 +9,8 @@
     "start": "next start"
   },
   "dependencies": {
+    "@zeit-ui/react": "^1.0.0-rc.11",
+    "@zeit-ui/react-icons": "^1.2.1",
     "next": "^9.3.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
