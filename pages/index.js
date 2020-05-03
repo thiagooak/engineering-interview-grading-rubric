@@ -1,7 +1,14 @@
 import Criteria from "../components/criteria";
 import Results from "../components/results";
 import rubric from "../data/rubric";
-import { CSSBaseline, ZEITUIProvider, Collapse, Text } from "@zeit-ui/react";
+import {
+  CSSBaseline,
+  ZEITUIProvider,
+  Collapse,
+  Text,
+  Link,
+} from "@zeit-ui/react";
+import { Github } from "@zeit-ui/react-icons";
 
 class Form extends React.Component {
   constructor(props) {
@@ -42,8 +49,8 @@ class Form extends React.Component {
           </Collapse>
         </Collapse.Group>
 
-        <h1>{rubricBuildSoftware.title}</h1>
-        <p>{rubricBuildSoftware.description}</p>
+        <Text h2>{rubricBuildSoftware.title}</Text>
+        <Text>{rubricBuildSoftware.description}</Text>
         <Collapse.Group>
           {rubricBuildSoftware["questions"].map((crit) => (
             <Collapse title={crit.title}>
@@ -59,8 +66,8 @@ class Form extends React.Component {
           ))}
         </Collapse.Group>
 
-        <h1>{rubricLearnAndTeach.title}</h1>
-        <p>{rubricLearnAndTeach.description}</p>
+        <Text h2>{rubricLearnAndTeach.title}</Text>
+        <Text>{rubricLearnAndTeach.description}</Text>
         <Collapse.Group>
           {rubricLearnAndTeach["questions"].map((crit) => (
             <Collapse title={crit.title}>
@@ -82,19 +89,27 @@ class Form extends React.Component {
 
 function Page() {
   return (
-    <ZEITUIProvider>
-      <CSSBaseline />
-      <div>
-        <h1>Engineering Interview Grading Rubric</h1>
-        <p>
-          Based on{" "}
-          <a href="https://medium.engineering/engineering-interviews-grading-rubric-8b409bec021f">
-            Medium's engineering interview grading rubric
-          </a>
-        </p>
-        <Form />
-      </div>
-    </ZEITUIProvider>
+    <>
+      <ZEITUIProvider>
+        <CSSBaseline />
+        <div>
+          <Text h1>Engineering Interview Grading Rubric</Text>
+          <p>
+            Based on{" "}
+            <a href="https://medium.engineering/engineering-interviews-grading-rubric-8b409bec021f">
+              Medium's engineering interview grading rubric
+            </a>
+          </p>
+          <p>
+            <a href="https://github.com/thiagooak/engineering-interview-grading-rubric">
+              <Github />
+            </a>
+          </p>
+          <Form />
+        </div>
+      </ZEITUIProvider>
+      <script src="https://cdn.usefathom.com/3.js" site="ZBBGRGJE"></script>
+    </>
   );
 }
 

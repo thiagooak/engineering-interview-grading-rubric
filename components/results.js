@@ -39,26 +39,26 @@ export default function Results({ state }) {
       <Text>Ability to build software</Text>
       {filledBuildSoftware.length > 0 ? (
         <Table data={dataBuildSoftware}>
-          <Table.Column prop="competency" label="competency" width="25%" />
-          <Table.Column prop="grade" label="grade" width="20%" />
+          <Table.Column prop="competency" label="competency" />
+          <Table.Column prop="grade" label="grade" />
           <Table.Column prop="note" label="note" />
         </Table>
       ) : (
         <Text size={12} type="secondary">
-          Add your answers below and this section will be updated
+          Add answers below to update this section
         </Text>
       )}
 
       <Text>Ability to learn and teach</Text>
       {filledLearnAndTeach.length > 0 ? (
         <Table data={dataLearnAndTeach}>
-          <Table.Column prop="competency" label="competency" width="25%" />
-          <Table.Column prop="grade" label="grade" width="20%" />
+          <Table.Column prop="competency" label="competency" />
+          <Table.Column prop="grade" label="grade" />
           <Table.Column prop="note" label="note" />
         </Table>
       ) : (
         <Text size={12} type="secondary">
-          Add your answers below and this section will be updated
+          Add answers below to update this section
         </Text>
       )}
     </>
