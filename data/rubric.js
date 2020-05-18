@@ -8,20 +8,42 @@ export default function rubric() {
         {
           title: "Problem Solving",
           gradeKey: "problemSolving",
-          description:
-            "Independently finding a creative solution is great. Failing to conceive of any solution is a red flag. Only demonstrating a naïve approach is a warning sign. Partial credit for being able to conceive of the solution, but not being able to follow through with it, especially for junior candidates.",
+          description: (
+            <p>
+              Independently finding a creative solution is great. Failing to
+              conceive of any solution is a red flag. Only demonstrating a naïve
+              approach is a warning sign. Partial credit for being able to
+              conceive of the solution, but not being able to follow through
+              with it, especially for junior candidates.
+            </p>
+          ),
         },
         {
           title: "Code Fluency",
           gradeKey: "codeFluency",
-          description:
-            "Make allowances at your discretion if this is a whiteboard interview, or if they are using tools on a provided computer that they don’t usually use. For coding tests, allow — or instruct — the candidate to use the language they are most familiar with.",
+          description: (
+            <p>
+              Make allowances at your discretion if this is a whiteboard
+              interview, or if they are using tools on a provided computer that
+              they don’t usually use. For coding tests, allow — or instruct —
+              the candidate to use the language they are most familiar with.
+            </p>
+          ),
         },
         {
           title: "Autonomy",
           gradeKey: "autonomy",
-          description:
-            "The specifics of this will vary by interview type. For Tech Lead Simulations, we might expect a good candidate to take control, break the problem down and assign them. For a coding interview, a good candidate will work independently, requesting little input except to clarify scope. Generally, we are looking for people who will be able to work with minimal guidance, and people who are able to own problems.",
+          description: (
+            <p>
+              The specifics of this will vary by interview type. For Tech Lead
+              Simulations, we might expect a good candidate to take control,
+              break the problem down and assign them. For a coding interview, a
+              good candidate will work independently, requesting little input
+              except to clarify scope. Generally, we are looking for people who
+              will be able to work with minimal guidance, and people who are
+              able to own problems.
+            </p>
+          ),
         },
         {
           title: "Basic computer science knowledge",
@@ -39,13 +61,11 @@ export default function rubric() {
                 engineers.
               </p>
               <p>
-                {" "}
                 Some questions do not require the use of complex data
                 structures. Do not arbitrarily force a discussion about them,
                 unless there is a clear fit for the problem.
               </p>
               <p>
-                {" "}
                 To be clear: we are not judging candidates on whether they know
                 terms like O(n). We are judging them on whether they understand
                 that there are trade-offs in building software, and that
@@ -53,7 +73,6 @@ export default function rubric() {
                 trade-offs.
               </p>
               <p>
-                {" "}
                 Candidates who choose and implement appropriate data structures
                 and algorithms without explaining their use may score well here,
                 but more poorly on communication.
@@ -64,27 +83,52 @@ export default function rubric() {
         {
           title: "System design",
           gradeKey: "systemDesign",
-          description:
-            "The grading for this portion will depend on the type of interview and the seniority of the candidate. For more senior positions, we would expect sensible code composition as a minimum, and some evidence of larger-scale system design. For junior positions, sensible decomposition of code will typically suffice.",
+          description: (
+            <p>
+              The grading for this portion will depend on the type of interview
+              and the seniority of the candidate. For more senior positions, we
+              would expect sensible code composition as a minimum, and some
+              evidence of larger-scale system design. For junior positions,
+              sensible decomposition of code will typically suffice.
+            </p>
+          ),
         },
         {
           title: "Resoluteness",
           gradeKey: "resoluteness",
-          description:
-            "Giving up on a particular approach and finding an alternative is fine. Giving up on the entire task because it is too hard is not. This is unrelated to whether the candidate actually solves the problem. When grading on challenges in past positions, exercise your judgement as to whether any further effort was warranted on the candidate’s part — staying in an abusive, hostile or dangerous environment is not a reasonable expectation of the candidate.",
+          description: (
+            <p>
+              Giving up on a particular approach and finding an alternative is
+              fine. Giving up on the entire task because it is too hard is not.
+              This is unrelated to whether the candidate actually solves the
+              problem. When grading on challenges in past positions, exercise
+              your judgement as to whether any further effort was warranted on
+              the candidate’s part — staying in an abusive, hostile or dangerous
+              environment is not a reasonable expectation of the candidate.
+            </p>
+          ),
         },
       ],
     },
     {
       title: "Ability to learn and teach",
       description:
-        "Qualities related to a candidate’s ability to improve themselves, and make Medium better.",
+        "Qualities related to a candidate’s ability to improve themselves, and make $COMPANY better.",
       questions: [
         {
           title: "Curiosity",
           gradeKey: "curiosity",
-          description:
-            "Curiosity does not have to be code- or industry-related! A demonstrated curiosity about, for example (and without limitation), their family genealogy, a foreign culture, cuisine, the mechanics of windmills, literary history, biomechanics etc. are all interesting. Consider as examples within Medium today: typography, the provenance of meat, travel-hacking, and Japanese, among many others.",
+          description: (
+            <p>
+              Curiosity does not have to be code- or industry-related! A
+              demonstrated curiosity about, for example (and without
+              limitation), their family genealogy, a foreign culture, cuisine,
+              the mechanics of windmills, literary history, biomechanics etc.
+              are all interesting. Consider as examples within $COMPANY today:
+              typography, the provenance of meat, travel-hacking, and Japanese,
+              among many others.
+            </p>
+          ),
         },
         {
           title: "Awareness",
@@ -162,8 +206,16 @@ export default function rubric() {
         {
           title: "Collaboration",
           gradeKey: "collaboration",
-          description:
-            "Collaboration If a candidate has worked exclusively in very small teams, much of this might be theoretical. In technical interviews, judge the candidate on their ability to use you for your knowledge, and willingness to ask for help. Pay attention to how they describe their role on previous teams, and whether they are comfortable sharing credit and accepting blame.",
+          description: (
+            <p>
+              Collaboration If a candidate has worked exclusively in very small
+              teams, much of this might be theoretical. In technical interviews,
+              judge the candidate on their ability to use you for your
+              knowledge, and willingness to ask for help. Pay attention to how
+              they describe their role on previous teams, and whether they are
+              comfortable sharing credit and accepting blame.
+            </p>
+          ),
         },
         {
           title: "Perspective",
@@ -182,7 +234,7 @@ export default function rubric() {
               <p>
                 ​A candidate should not be penalised for the particular
                 demographic that they belong to​, or don’t belong to.​ ​But we
-                recognise that those who are underrepresented at Medium​ and in
+                recognise that those who are underrepresented at $COMPANY and in
                 the tech sector more broadly,​ can offer us points of view that
                 we are currently missing. We should remember that while we are
                 hiring individuals, we are building a team.
@@ -205,7 +257,7 @@ export default function rubric() {
                 view a candidate might bring to bear on our company our product
                 — is something you should pursue. To this end, open-ended
                 questions may generate discussions on what a candidate may bring
-                to Medium that isn’t in evidence on their resumè. For example,
+                to $COMPANY that isn’t in evidence on their resumè. For example,
                 questions like:
               </p>
               <p>
@@ -217,8 +269,8 @@ export default function rubric() {
                 that could improve it?”
               </p>
               <p>
-                “What are some things you think Medium can do better to broaden
-                our appeal to new users?”
+                “What are some things you think $COMPANY can do better to
+                broaden our appeal to new users?”
               </p>
             </>
           ),
