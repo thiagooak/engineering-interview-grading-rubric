@@ -425,7 +425,7 @@ export default function grade() {
         name: "Strong No",
         description: (
           <p>
-            The candidate demonstrates no interest in Medium, or in the world
+            The candidate demonstrates no interest in $COMPANY, or in the world
             around them, and provides no evidence that they want to learn more.{" "}
           </p>
         ),
@@ -458,7 +458,7 @@ export default function grade() {
         name: "Yes",
         description: (
           <p>
-            The candidate asks insightful questions about Medium. They ask
+            The candidate asks insightful questions about $COMPANY. They ask
             follow-up questions to go deeper on topics that interest them. They
             describe times when they have done independent research, on any
             topic. The candidate describes needing to figure out why something
@@ -788,10 +788,10 @@ export default function grade() {
         description: (
           <p>
             The candidate offers no new perspectives on the world, the product
-            or the company. The candidate has no thoughts on how Medium can
+            or the company. The candidate has no thoughts on how $COMPANY can
             improve. The candidate appears not to have done any research on
-            Medium at all. The candidate doesn’t recognise any of the dangers of
-            groupthink. The candidate describes directly or indirectly
+            $COMPANY at all. The candidate doesn’t recognise any of the dangers
+            of groupthink. The candidate describes directly or indirectly
             homogeneity as the only way to achieve success.
           </p>
         ),
@@ -813,10 +813,10 @@ export default function grade() {
         name: "Mixed",
         description: (
           <p>
-            The candidate has done a little research on Medium, but knows little
-            more than that it’s a blogging platform, and that Ev is the founder.
-            The candidate solves a problem in the same way that the vast
-            majority of candidates do.
+            The candidate has done a little research on $COMPANY, but knows
+            little more than that it’s a blogging platform, and that Ev is the
+            founder. The candidate solves a problem in the same way that the
+            vast majority of candidates do.
           </p>
         ),
       },
@@ -825,9 +825,9 @@ export default function grade() {
         description: (
           <p>
             The candidate is able to describe the needs of a demographic for
-            which Medium does not yet adequately cater. The candidate is able to
-            teach the interviewer something about people’s perspective of
-            Medium, and recognises the value of diverse perspectives. The
+            which $COMPANY does not yet adequately cater. The candidate is able
+            to teach the interviewer something about people’s perspective of
+            $COMPANY, and recognises the value of diverse perspectives. The
             candidate is able to contextualise a problem or solution in a way
             that the interviewer hasn’t considered. The candidate teaches the
             interviewer something they didn’t know. The candidate adds something
@@ -839,12 +839,12 @@ export default function grade() {
         name: "Strong Yes",
         description: (
           <p>
-            The candidate has extensively researched Medium and comes prepared
+            The candidate has extensively researched $COMPANY and comes prepared
             with lots of ways the product could be improved. The candidate has
-            strong ties to a community that is underserved by Medium, or with
-            whom Medium currently has difficulty communicating. The candidate
-            has ideas of how Medium could be made more useful or opened up to a
-            new audience by serving a specific set of needs that haven’t been
+            strong ties to a community that is underserved by $COMPANY, or with
+            whom $COMPANY currently has difficulty communicating. The candidate
+            has ideas of how $COMPANY could be made more useful or opened up to
+            a new audience by serving a specific set of needs that haven’t been
             identified within the company. The candidate identifies an edge-case
             in a long-standing interview question, of which the interviewer was
             previously unaware, or solves the problem (correctly) in a way that
