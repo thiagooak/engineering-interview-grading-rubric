@@ -109,10 +109,11 @@ function Page() {
         </div>
       </ZEITUIProvider>
       <script
-        src="https://cdn.usefathom.com/3.js"
+        src="https://cdn.usefathom.com/script.js"
         site="ZBBGRGJE"
         honor-dnt="true"
         included-domains="rubric.thiagocarvalho.net"
+        defer
       ></script>
     </>
   );
