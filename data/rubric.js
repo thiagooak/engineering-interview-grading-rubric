@@ -120,13 +120,11 @@ export default function rubric() {
           gradeKey: "curiosity",
           description: (
             <p>
-              Curiosity does not have to be code- or industry-related! A
+              Curiosity does not have to be code- or industry-related. A
               demonstrated curiosity about, for example (and without
               limitation), their family genealogy, a foreign culture, cuisine,
               the mechanics of windmills, literary history, biomechanics etc.
-              are all interesting. Consider as examples within $COMPANY today:
-              typography, the provenance of meat, travel-hacking, and Japanese,
-              among many others.
+              are all interesting.
             </p>
           ),
         },

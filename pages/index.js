@@ -92,7 +92,7 @@ function Page() {
     <>
       <ZEITUIProvider>
         <CSSBaseline />
-        <div>
+        <div style={{ padding: "0 10px" }}>
           <Text h1>Engineering Interview Grading Rubric</Text>
           <p>
             Based on{" "}

@@ -419,64 +419,67 @@ export default function grade() {
     curiosity: [
       {
         name: "N/A",
-        description: "x",
+        description: (
+          <>
+            I did not ask the candidate questions their motivation to join
+            $COMPANY nor about non-work activities.
+          </>
+        ),
       },
       {
         name: "Strong No",
         description: (
-          <p>
+          <>
             The candidate demonstrates no interest in $COMPANY, or in the world
-            around them, and provides no evidence that they want to learn more.{" "}
-          </p>
+            around them, and provides no evidence that they want to learn more.
+          </>
         ),
       },
       {
         name: "No",
         description: (
-          <p>
+          <>
             The candidate isn’t able to describe any self-directed learning.
             They accept every statement at face value, without digging in. They
-            ask no questions. (Excepting if the candidate is tired from a long
-            day of interviews and has previously asked questions of others.)
-          </p>
+            ask no questions.
+          </>
         ),
       },
       {
         name: "Mixed",
         description: (
-          <p>
-            The candidate asks, or has asked, “why?” once or twice, but isn’t
-            particularly interested in the answers, and doesn’t go deeper. The
-            questions the candidate asks are fairly standard, on topics like
-            tech stack, or working hours, without really seeking any deep
-            insight. The candidate has done a little self-directed learning on a
-            topic that interests them.
-          </p>
+          <>
+            The candidate asked, “why?” once or twice, but isn’t particularly
+            interested in the answers, and doesn’t go deeper. The questions the
+            candidate asks are fairly standard, on topics like tech stack, or
+            working hours, without really seeking any deep insight. The
+            candidate has done a little self-directed learning on a topic that
+            interests them.
+          </>
         ),
       },
       {
         name: "Yes",
         description: (
-          <p>
+          <>
             The candidate asks insightful questions about $COMPANY. They ask
             follow-up questions to go deeper on topics that interest them. They
             describe times when they have done independent research, on any
             topic. The candidate describes needing to figure out why something
-            was broken, and derives satisfaction from finding answers. The
-            candidate has done research on the people interviewing them.
-          </p>
+            was broken, and derives satisfaction from finding answers.
+          </>
         ),
       },
       {
         name: "Strong Yes",
         description: (
-          <p>
+          <>
             The candidate displays an insatiable appetite for learning, provides
             ample evidence of self-improvement and asking questions, and gets
             excited when they recognise an opportunity for learning. The
             candidate runs out of time asking questions, and still has more to
             ask.
-          </p>
+          </>
         ),
       },
     ],
