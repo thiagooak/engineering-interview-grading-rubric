@@ -108,7 +108,12 @@ function Page() {
           <Form />
         </div>
       </ZEITUIProvider>
-      <script src="https://cdn.usefathom.com/3.js" site="ZBBGRGJE"></script>
+      <script
+        src="https://cdn.usefathom.com/3.js"
+        site="ZBBGRGJE"
+        honor-dnt="true"
+        included-domains="rubric.thiagocarvalho.net"
+      ></script>
     </>
   );
 }
